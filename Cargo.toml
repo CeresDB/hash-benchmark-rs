@@ -1,0 +1,17 @@
+[package]
+name = "hash-benchmark-rs"
+description = "Benchmark different hash in Rust"
+version = "0.1.0"
+edition = "2021"
+authors = [
+    "CeresDB Authors <ceresdbservice@gmail.com>",
+]
+license = "Apache-2.0"
+repository = "https://github.com/CeresDB/hash-benchmark-rs"
+
+[dependencies]
+ahash = "0.8.3"
+byteorder = "1.4.3"
+murmur3 = "0.4.1"
+rand = "0.8.5"
+seahash = "4.1.0"
